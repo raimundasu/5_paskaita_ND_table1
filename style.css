@@ -1,0 +1,31 @@
+/* nesupratau kaip dydį atkartoti, o spalvos turėtų atitikti
+ */
+table {
+  margin: 20px 20px;
+  border: 2px solid #fec107;
+  border-collapse: collapse;
+  font-family: lato;
+  font-size: 3rem;
+}
+
+th,
+td {
+  border: 2px solid #fec107;
+}
+
+th {
+  text-align: center;
+  padding: 30px;
+  background: #fec107;
+}
+
+th:nth-of-type(2) {
+  background: #e5ae30;
+}
+
+td {
+  text-align: left;
+  color: #fffeff;
+  background: #382c6e;
+  padding: 2rem 22rem 2rem 3rem;
+}
